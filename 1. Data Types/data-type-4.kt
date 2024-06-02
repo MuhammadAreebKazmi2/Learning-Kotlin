@@ -6,4 +6,9 @@ fun main() {
   val Bool: Boolean = false
 
   println("my character = $CharValue and Boolean value is $Bool")
+
+  val text: String? = null  // can allow null
+  // safe call operator
+
+  println("$text")
 }
